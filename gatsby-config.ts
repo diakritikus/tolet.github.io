@@ -43,6 +43,13 @@ const config: GatsbyConfig = {
     //   },
     // },        
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-SK6HVJWDTN",
+        head: true,
+      },
+    },
+    {
       resolve: `@lekoarts/gatsby-theme-jodie`,
       // See the theme's README for all available options
       options: {

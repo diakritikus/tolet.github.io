@@ -41,7 +41,8 @@ const config: GatsbyConfig = {
     //       },
     //     ],
     //   },
-    // },        
+    // }, 
+    "gatsby-plugin-netlify",       
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

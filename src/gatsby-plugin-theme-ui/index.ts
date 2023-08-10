@@ -1,7 +1,5 @@
 import { merge } from "theme-ui"
 import originalTheme from "@lekoarts/gatsby-theme-jodie/src/gatsby-plugin-theme-ui"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 const theme = merge(originalTheme, {
   fonts: {

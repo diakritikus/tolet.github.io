@@ -25,7 +25,7 @@ const Logo = () => {
       <span style={{float: "left"}}>Whatsapp, SMS or call:</span>            
       {isRevealed ? (
         <div>
-          <span>+36205123836</span>
+          <span>+3620xxxxxx</span>
         </div>
       ) : (
         <span onClick={handlePhoneNumberClick}>          
